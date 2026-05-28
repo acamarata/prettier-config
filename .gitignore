@@ -1,0 +1,14 @@
+node_modules/
+*.tgz
+.DS_Store
+.vscode/*
+.idea/
+.claude/
+.codex/
+.cursor/
+.aider/
+.aider.chat.history.md
+.continue/
+.windsurf/
+.gemini/
+.codeium/

@@ -1,0 +1,58 @@
+{
+  "name": "@acamarata/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared Prettier configuration for acamarata packages.",
+  "author": "Aric Camarata",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test.mjs",
+    "typecheck": "echo 'No TypeScript source \u2014 skipped'"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acamarata/prettier-config.git"
+  },
+  "homepage": "https://github.com/acamarata/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/acamarata/prettier-config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "config",
+    "formatting",
+    "acamarata"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "packageManager": "pnpm@10.11.1"
+}
